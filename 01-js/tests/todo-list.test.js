@@ -2,7 +2,6 @@ const Todo = require('../hard/todo-list');
 
 describe('Todo', () => {
 	let todoList;
-
 	beforeEach(() => {
 		todoList = new Todo();
 	});
